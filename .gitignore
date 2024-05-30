@@ -34,6 +34,9 @@ coverage/
 # TypeScript
 *.tsbuildinfo
 
+# Ignore compiled JavaScript files from TypeScript
+app/**/*.js
+
 # IntelliJ project files
 .idea/
 *.iml
